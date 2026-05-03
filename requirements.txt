@@ -1,0 +1,17 @@
+# JARVIS — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# CORE (required for basic functionality)
+pyttsx3>=2.90          # Text-to-speech (offline)
+vosk>=0.3.45           # Speech-to-text (offline, needs model download)
+sounddevice>=0.4.6     # Microphone access for Vosk
+
+# OPTIONAL — Enhanced features (safe to install, won't break anything if absent)
+psutil>=5.9.0          # CPU, RAM, battery info
+requests>=2.31.0       # HTTP for weather and web search
+beautifulsoup4>=4.12.0 # HTML parsing for web search
+ollama>=0.1.7          # Local LLM client (requires Ollama app installed)
+Pillow>=10.0.0         # Screenshots
+
+# WINDOWS ONLY — volume control
+# pycaw>=20230407      # Uncomment on Windows: pip install pycaw
